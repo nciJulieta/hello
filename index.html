@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head> 
+		<title>New Bank Account</title>
+		<link rel="stylesheet" href="style.css" />
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		
+		
+		<div class="formBank"> 
+			<h1> Create your new account </h1>
+			
+			<form method="POST" action="mailto:sorrentino.juli@gmail.com">
+			
+				<label for="fname">First Name: </label>
+				<input type="text" id="fname" name="Name"/><br/><br/>
+				
+				<label for="sname">Surname: </label>
+				<input type="text" id="sname" name="Surname" required/><br/><br/>
+				
+				<label for="phone">Telephone Number: </label>
+				<input type="tel" id="phone"/><br/><br/>
+				
+				<label for="birth" name="dateofbirth">Date of Birth: </label>
+				<input type="date" id="birth"/><br/><br/>
+				
+				<label for="email">Email: </label>
+				<input type="email" id="email"/><br/><br/>
+				
+				
+				<input type="checkbox" id="notifications"/>
+				<label for="notifications">I accept to receive update notifications to my email</label>
+				<br>
+
+				
+				<input type="submit" value="Submit" /> 
+				
+				
+			</form>
+		</div>
+	</body>
+</html>
